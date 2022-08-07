@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Skrate</string>
+    <string name="skrate_logo_cd">Skrate Logo</string>
+    <string name="header_design_cd">Header Design</string>
+    <string name="sign_in_text1">Welcome Back to \n Skrate!!</string>
+    <string name="sign_in_button_text">Sign In With Google</string>
+    <string name="home_title">Home</string>
+    <string name="shuffle_text">Shuffle</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030762265454",
+    "project_id": "skratetest-cc4a4",
+    "storage_bucket": "skratetest-cc4a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030762265454:android:ed4d15e3156dc046179f7f",
+        "android_client_info": {
+          "package_name": "com.endlessloppsoftwares.skrate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030762265454-m9ai6go3tebtp3fphuilnjrfnv2bthd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxnP77nAeGJVvLImTysoWcO2NO__MPObA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030762265454-m9ai6go3tebtp3fphuilnjrfnv2bthd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

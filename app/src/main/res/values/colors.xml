@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor1">#181818</color>
+    <color name="bgColor1">#4F65F6</color>
+    <color name="bgColor2">#E8C9D1</color>
+    <color name="bgColor3">#91AEE1</color>
+    <color name="arrowBg">#323232</color>
+    <color name="timeTextColor">#4E9E79</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
