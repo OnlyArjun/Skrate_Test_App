@@ -8,4 +8,5 @@
     <color name="timeTextColor">#4E9E79</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mentorBg">#E8C9D1</color>
 </resources>

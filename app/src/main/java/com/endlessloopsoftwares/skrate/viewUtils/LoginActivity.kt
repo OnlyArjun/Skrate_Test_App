@@ -1,10 +1,11 @@
-package com.endlessloopsoftwares.skrate
+package com.endlessloopsoftwares.skrate.viewUtils
 
 import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
+import com.endlessloopsoftwares.skrate.R
 import com.endlessloopsoftwares.skrate.databinding.ActivityLoginBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -68,7 +69,7 @@ class LoginActivity : AppCompatActivity() {
         myAuthInstance.signInWithCredential(userCredentials)
             .addOnCompleteListener(this) { taskReturned ->
                 if (taskReturned.isSuccessful) {
-                    val homeActivityIntent = Intent(this,HomeActivity::class.java)
+                    val homeActivityIntent = Intent(this, HomeActivity::class.java)
                     startActivity(homeActivityIntent)
                     finish()
                 } else {

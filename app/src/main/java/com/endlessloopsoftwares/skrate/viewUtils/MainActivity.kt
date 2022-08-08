@@ -1,8 +1,9 @@
-package com.endlessloopsoftwares.skrate
+package com.endlessloopsoftwares.skrate.viewUtils
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.endlessloopsoftwares.skrate.R
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
@@ -18,11 +19,11 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         if(myFirebaseAuth.currentUser == null) {
-            val loginActivityIntent = Intent(this,LoginActivity::class.java)
+            val loginActivityIntent = Intent(this, LoginActivity::class.java)
             startActivity(loginActivityIntent)
             finish()
         } else {
-            val homeActivityIntent = Intent(this,HomeActivity::class.java)
+            val homeActivityIntent = Intent(this, HomeActivity::class.java)
             startActivity(homeActivityIntent)
             finish()
         }

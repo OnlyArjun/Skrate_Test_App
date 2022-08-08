@@ -8,6 +8,9 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/jobs_rv_items.xml" value="0.14719202898550723" />
+        <entry key="app/src/main/res/layout/overview_rv_items.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/upcoming_session_rv_items.xml" value="0.25" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.19375" />
       </map>
     </option>
